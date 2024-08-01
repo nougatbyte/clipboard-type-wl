@@ -1,2 +1,2 @@
 #!/bin/bash
-echo type "$(wl-paste)" | GDK_BACKEND=wayland dotool
+echo type "$(wl-paste)" | dotool
