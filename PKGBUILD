@@ -1,6 +1,6 @@
 # Maintainer: nougatbyte nougatbyte at itandstuff dot de
 pkgname=clipboard-type-wl
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc="A simple script using dotool to type clipboard contents"
 arch=('any')
