@@ -1,6 +1,6 @@
 # Maintainer: nougatbyte nougatbyte at itandstuff dot de
 pkgname=clipboard-type-wl
-pkgver=1.1
+pkgver=1.1.1
 pkgrel=1
 pkgdesc="A simple script using dotool to type clipboard contents"
 arch=('any')
@@ -15,6 +15,5 @@ package() {
 }
 
 post_install() {
-    echo "To use clipboard-type-wl, ensure dotoold is running as expected."
-    echo "Then, you can run 'clipboard-type-wl' to type the contents of your clipboard."
+    echo "Run 'clipboard-type-wl' or set it as a shortcut in your DE to type the contents of your clipboard."
 }
